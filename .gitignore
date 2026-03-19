@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+*.env
+.env.*
+
+# Claude local settings
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Model checkpoints & weights
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Rust build artifacts
+target/
+Cargo.lock
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+wandb/
+runs/
